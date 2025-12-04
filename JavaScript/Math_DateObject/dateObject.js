@@ -3,6 +3,7 @@ let date = new Date();
 console.log(date); //current date and time op: 2025-12-01T14:47:24.419Z
 console.log(date.toString());//string representation of date op:Mon Dec 01 2025 15:47:24 GMT+0100 (Central European Standard Time)
 console.log(date.toDateString()); //date portion in human readable form op: Mon Dec 01 2025
+console.log(date.toLocaleTimeString()); 
 let localTime = new Date().toLocaleString();
 console.log(localTime); //local date and time op:12/1/2025, 3:47:24 PM
 
@@ -20,3 +21,5 @@ console.log(Date.now());//get current time in milliseconds since January 1, 1970
 let date1 =new Date()  //set year to 2023
 let convertYear =date1.setFullYear(2023);
 console.log(new Date(convertYear ))
+ //9:45 a)a b)b
+ 
