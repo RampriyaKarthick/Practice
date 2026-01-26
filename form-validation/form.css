@@ -12,6 +12,7 @@
     min-height: 100vh;
     padding: 24px;
     background-color: #2a3b56;
+    
 
 }
 
@@ -35,11 +36,33 @@
 .form-container .form-group{
     display: flex;
     flex-direction:column;
+    margin-bottom:4px;
+    gap:2px;
 }
 .form-container .form-group input{ 
-height:30px
-}
+height:30px;
+border:none;
+outline:none;
+border-bottom:1px solid gray;
+font-size : 15px;
+padding:5px;
 
+}
+.form-container .form-group label{
+    font-size:20px;
+    color:rgb(90, 90, 131);
+    font-weight:600;
+}
+.form-container .form-group span{
+color:red
+
+}
+    
 .form-container #submit-btn{
     height: 35px;
+    background-color:rgb(90, 90, 131);
+    color:white;
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:10px;
 }
